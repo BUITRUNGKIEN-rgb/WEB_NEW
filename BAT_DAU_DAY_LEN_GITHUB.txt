@@ -1,0 +1,38 @@
+AI02 V13 - UNETI12 / ODD3
+MA NGUON DA CHUAN BI SAN DE DAY LEN GITHUB
+
+1. GIAI NEN FILE ZIP VAO THU MUC RIENG.
+   Vi du: D:\AI02_V13_SAN_SANG_DAY_GITHUB
+   KHONG giai nen de len thu muc du an goc.
+
+2. TREN GITHUB: Tao repository MOI, o che do rong (Empty repository).
+   https://github.com/new
+   Ten vi du: AI02-UNETI12-ODD3
+   KHONG tick Add README, Add .gitignore, hoac License.
+
+3. DAP FILE "DAY_CODE_LEN_GITHUB.bat" de chay.
+   - Nhap duong dan repository, vd: https://github.com/USERNAME/AI02-UNETI12-ODD3.git
+   - Script goi git add, kiem tra data/model, hien danh sach file.
+   - Nhan Y de xac nhan commit va push. Git co the yeu cau dang nhap.
+   - Script dung neu thay du lieu nhay cam. KHONG DUNG --force.
+
+CACH THU 2 - TAI QUA WEBSITE GITHUB (khong can Git):
+   - Vao trang repo moi -> Add file -> Upload files.
+   - Mo THU MUC DA GIAI NEN, chon CAC FILE VA THU MUC CON ben trong.
+   - Keo tha vao GitHub va Commit changes.
+   - KHONG tai truc tiep file .zip (GitHub se khong tu giai nen).
+   - Khi upload web, .gitignore KHONG tu chan file nhay cam.
+     Chi dung goi sach nay, khong keo du an cu co data/ model/ that.
+
+BAO VE DU LIEU:
+   * Da LOAI BO dataset, checkpoint, file ket qua, .venv, __pycache__.
+   * Giu cac file Python .py nguyen noi dung so voi goi V13 GitHub Safe.
+   * data/, model/, results/, results_cnn/ chi co README.txt trong goi nay.
+   * Khong xoa, thay doi du an goc tren o D.
+
+CAN LUU Y:
+   GitHub la noi luu MA NGUON. KHONG the chay app Python qua GitHub Pages.
+   Khong co model .pth/.joblib that thi web KHONG du doan duoc.
+   Khi can demo online, can server Streamlit + cach cung cap model tin cay.
+
+Xem README.md va HUONG_DAN_GITHUB_AN_TOAN.md de biet them.

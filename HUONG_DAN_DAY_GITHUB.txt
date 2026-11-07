@@ -1,0 +1,39 @@
+AI02 V14 - HUONG DAN DAY LEN GITHUB (KHONG MAT DU LIEU)
+=====================================================
+REPOSITORY HIENTAI: https://github.com/BUITRUNGKIEN-rgb/AIX_Web_App
+
+A. SUA NGAY LOI GITHUB PAGES 404 - DE NHAT
+1. Giai nen AI02_CHI_SUA_404_GITHUB_PAGES.zip.
+2. Mo repository AIX_Web_App -> Add file -> Upload files.
+3. Tai cac file VA THU MUC (index.html, assets, .nojekyll, 404.html) len ROOT repository.
+4. Commit changes.
+5. Vao Settings -> Pages -> Deploy from a branch -> main -> /(root) -> Save.
+6. Kiem tra trang: https://buitrungkien-rgb.github.io/AIX_Web_App/
+   (Link du kien; can bat Pages va cho trang duoc xuat ban).
+
+B. NEU MUON TAI LAI TOAN BO BO MA AI02
+1. Giai nen AI02_V14_GITHUB_PAGES_VA_STREAMLIT.zip.
+2. Mo thu muc AI02_V14_GITHUB_PAGES_VA_STREAMLIT.
+3. Tai TOAN BO NOI DUNG BEN TRONG thu muc len repository moi.
+   Khong tai file ZIP nguyen khoi; khong tai thu muc du an cu tren o D.
+4. Neu repo da co file trung ten, uu tien ban sua 404 muc A de khong ghi de code.
+
+C. MUON AI THUC SU NHAN DIEN ANH TREN INTERNET
+1. Vao https://share.streamlit.io/ -> Create app -> Yup, I have an app.
+2. Repository: BUITRUNGKIEN-rgb/AIX_Web_App
+   Branch: main
+   Main file path: app.py
+3. Deploy. App can checkpoint that da huan luyen de phan loai that.
+4. Khi da co link .streamlit.app, mo assets/config.js tren GitHub,
+   thay streamlitUrl: "" thanh streamlitUrl: "https://TEN-APP-CUA-BAN.streamlit.app"
+   Commit changes.
+
+D. KHONG DAY
+- data/dataset-resized/, model/*.pth, model/*.joblib
+- results/, results_cnn/ thuc, .venv/, .env, secrets.toml
+- Khong chon Add README trong repo moi vi package da co README.
+
+E. NEU CHI CAN LINK GITHUB PAGES MA KHONG DEPLOY STREAMLIT
+- Trang gioi thieu se mo duoc.
+- Nhan nut 'Mo AI' se thong bao chua ket noi ung dung nhan dien.
+- Khong co du doan gia.

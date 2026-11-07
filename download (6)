@@ -1,0 +1,76 @@
+# AI02 V13 - protect local original dataset/model/reports and private files
+# KEEP this file before running git add .
+
+# Python environments, caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Private configuration/secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+**/secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+*.credentials
+credentials.json
+service-account*.json
+
+# Dataset - never upload TrashNet or any locally added images
+/data/**
+!/data/
+!/data/README.txt
+/dataset-resized/
+/datasets/
+/uploads/
+/images_private/
+*.csv
+*.parquet
+*.npy
+*.npz
+*.pkl
+
+# Locally trained models - preserve them on your PC
+/model/**
+!/model/
+!/model/README.txt
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.joblib
+*.safetensors
+
+# Experimental outputs & user session results
+/results/**
+!/results/
+!/results/README.txt
+/results_cnn/**
+!/results_cnn/
+!/results_cnn/README.txt
+/backup_ui/
+/backup_before_*/
+/logs/
+*.log
+
+# Compressed files / system / editor
+*.zip
+*.7z
+*.rar
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

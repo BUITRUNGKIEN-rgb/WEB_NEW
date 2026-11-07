@@ -1,0 +1,1 @@
+AI02 V9: doc README_V9.md. Cai vao du an cu: 00_CAP_NHAT_VAO_DU_AN_CU.bat. Huan luyen: 08_HUAN_LUYEN_V9_B2.bat.
