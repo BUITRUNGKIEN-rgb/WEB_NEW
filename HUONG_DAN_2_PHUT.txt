@@ -1,0 +1,23 @@
+SUA LOI TRANG GITHUB PAGES BI MAT CSS / HINH PHONG TO
+=================================================
+BAN CHI CAN THAY 1 FILE: index.html
+
+1. Vao https://github.com/BUITRUNGKIEN-rgb/AIX_Web_App
+2. Chon tab Code, kiem tra dang o nhanh main.
+3. Nhan Add file -> Upload files.
+4. Keo THANG file index.html (khong keo ca folder va khong tai zip) vao khung upload.
+5. Commit changes vao main. Khi ten trung index.html GitHub se thay file cu.
+6. Doi GitHub Pages hoan tat deploy (Settings -> Pages / Actions).
+7. Mo https://buitrungkien-rgb.github.io/AIX_Web_App/ va Ctrl+Shift+R.
+
+BO SUA CHUA:
+- CSS va JavaScript duoc nhung thang vao 1 file index.html.
+- Khong phu thuoc thu muc assets nen tranh trang bi mat dinh dang.
+- Khong sua app.py, dataset, checkpoints .pth/.joblib, khong huan luyen lai.
+- GitHub Pages CHI hien trang gioi thieu. Nhan dien AI that can Streamlit va model da huan luyen.
+- Neu nut Mo AI hien thong bao 'Chua ket noi', do la binh thuong cho toi khi co link Streamlit.
+
+NEU VAN LOI:
+- Xem index.html phai nam ngang cap app.py tren nhanh main (khong trong folder con).
+- Xem Settings -> Pages: main / (root).
+- Kiem tra tab Actions da deploy xong; lam moi manh Ctrl+Shift+R.
